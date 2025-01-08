@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Facebook Clone</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+    <div class="container flex flex-col lg:flex-row mt-12 lg:mt-28 items-center justify-center drop-shadow-lg px-4">
+        <!-- Left Section -->
+        <div class="left w-full lg:w-1/2 px-3 mb-8 lg:mb-24 text-center lg:text-left">
+            <img src="fb.svg" alt="Facebook" class="w-40 sm:w-60 lg:w-80 mx-auto lg:mx-0"/>
+            <p class="text-lg sm:text-2xl lg:text-3xl font-normal text-black mt-4">Facebook helps you connect and share with the people in your life.</p>
+        </div>
+
+        <!-- Right Section -->
+        <div class="right flex flex-col bg-white p-4 rounded-lg w-full sm:w-96 text-lg relative">
+            <input type="text" placeholder="Email address or phone number" class="px-4 h-14 my-2 placeholder:text-lg border border-1 border-slate-200 rounded-lg focus:outline-blue-600" />
+            <input type="password" placeholder="Password" class="px-4 h-14 my-2 border border-1 border-slate-200 rounded-lg placeholder:text-lg focus:outline-blue-600"/>
+            <button class="btn text-white text-lg font-bold px-4 h-14 my-2 rounded-lg bg-blue-600 hover:bg-blue-700 active:bg-blue-500 focus:bg-blue-600 focus:outline-slate-300">Log in</button>
+            <span class="text-center text-blue-600 pb-4">Forgotten password?</span>
+            <hr class="w-full">
+
+            <button class="bg-lime-600 w-fit hover:bg-lime-700 px-4 mx-auto rounded-lg py-3 mt-6 mb-4 text-white text-lg font-bold text-center">Create new account</button>
+
+            <span class="absolute -bottom-12 lg:-right-28 transform lg:-translate-x-1/2 mx-auto text-sm text-center lg:text-left">
+                <span class="font-bold hover:underline cursor-pointer">Create a Page</span> for a celebrity, brand or business.
+            </span>
+        </div>
+    </div>
+
+</body>
+</html>
